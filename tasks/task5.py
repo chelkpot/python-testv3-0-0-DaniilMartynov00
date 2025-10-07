@@ -6,9 +6,9 @@ def solve():
     n = n % 86400
     hours = n // 3600
     n %= 3600
-minutes = n // 60
-seconds = n % 60
-print(f"{hours}:{minutes:02d}:{seconds:02d}")
+    minutes = n // 60
+    seconds = n % 60
+    print(f"{hours}:{minutes:02d}:{seconds:02d}")
 
    
 # Код ниже не трогать! он нужен для тестов
